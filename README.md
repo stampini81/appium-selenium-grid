@@ -1,9 +1,9 @@
 # Appium + Selenium Grid + Ruby + WinAppDriver
 
-![Selenium Grid](https://raw.githubusercontent.com/SeleniumHQ/docker-selenium/trunk/images/grid.png)
-![Appium Logo](https://appium.io/img/logo.png)
+![Selenium Grid](https://www.selenium.dev/images/selenium_logo_square_green.png)
+![Appium Logo](https://raw.githubusercontent.com/appium/appium/master/docs/static/img/appium-logo.png)
 ![Ruby Logo](https://www.ruby-lang.org/images/header-ruby-logo.png)
-![WinAppDriver Logo](https://user-images.githubusercontent.com/3806031/27396313-2e2e2e7e-569b-11e7-8e2e-2e7e7e7e7e7e.png)
+![WinAppDriver Logo](https://raw.githubusercontent.com/microsoft/WinAppDriver/master/Images/WinAppDriver_Logo.png)
 
 ## Visão Geral
 Este projeto demonstra como orquestrar testes automatizados usando Selenium Grid, Ruby, e WinAppDriver para automação da Calculadora do Windows.
@@ -36,15 +36,15 @@ appium-selenium-grid/
 
 ## Ferramentas Utilizadas
 
-- **Selenium Grid** ![Selenium Grid](https://raw.githubusercontent.com/SeleniumHQ/docker-selenium/trunk/images/grid.png)
+- **Selenium Grid** ![Selenium Grid](https://www.selenium.dev/images/selenium_logo_square_green.png)
   - Orquestra e distribui os testes.
-- **WinAppDriver** ![WinAppDriver](https://user-images.githubusercontent.com/3806031/27396313-2e2e2e7e-569b-11e7-8e2e-2e7e7e7e7e7e.png)
+- **WinAppDriver** ![WinAppDriver](https://raw.githubusercontent.com/microsoft/WinAppDriver/master/Images/WinAppDriver_Logo.png)
   - Permite automação de apps Windows.
 - **Ruby** ![Ruby Logo](https://www.ruby-lang.org/images/header-ruby-logo.png)
   - Linguagem dos testes.
-- **Appium Lib** ![Appium Logo](https://appium.io/img/logo.png)
+- **Appium Lib** ![Appium Logo](https://raw.githubusercontent.com/appium/appium/master/docs/static/img/appium-logo.png)
   - Biblioteca Ruby para automação.
-- **Cucumber** ![Cucumber Logo](https://cucumber.io/images/logo-cucumber.svg)
+- **Cucumber** ![Cucumber Logo](https://cucumber.io/images/brand-assets/cucumber-logo-green-256x256.png)
   - BDD para Ruby.
 - **Docker Compose** ![Docker Logo](https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png)
   - Orquestração dos containers.
