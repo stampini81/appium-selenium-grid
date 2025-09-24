@@ -77,7 +77,49 @@ O Cucumber executa o teste BDD na Calculadora do Windows. O resultado aparece no
 
 ### docker-compose.yml
 ```yaml
-# ...trecho do docker-compose.yml...
+version: '3.8'
+
+services:
+  selenium-hub:
+    image: selenium/hub:4.21.0
+    container_name: selenium-hub
+    ports:
+      - "4444:4444"
+    networks:
+      - grid
+
+  winappdriver-node:
+    build:
+      context: ./winappdriver-node
+      dockerfile: Dockerfile
+    container_name: winappdriver-node
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+    ports:
+      - "4723:4723" # WinAppDriver default
+    networks:
+      - grid
+    depends_on:
+      - selenium-hub
+
+  ruby-tests:
+    build:
+      context: ./ruby-tests
+      dockerfile: Dockerfile
+    container_name: ruby-tests
+    networks:
+      - grid
+    depends_on:
+      - selenium-hub
+      - winappdriver-node
+    command: ["cucumber"]
+
+networks:
+  grid:
+    driver: bridge
+
 ```
 
 ### calculator_test.rb
