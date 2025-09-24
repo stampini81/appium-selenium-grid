@@ -1,9 +1,9 @@
 # Appium + Selenium Grid + Ruby + WinAppDriver
 
-![Selenium Grid](img/SELENIUM.png)
-![Appium Logo](img/APPIUM.png)
+![Selenium Grid](IMG/SELENIUM.png)
+![Appium Logo](IMG/APPIUM.png)
 ![Ruby Logo](https://www.ruby-lang.org/images/header-ruby-logo.png)
-![WinAppDriver Logo](img/WINAPP%20DRIVE.png)
+![WinAppDriver Logo](IMG/WINAPP%20DRIVE.png)
 
 ## Visão Geral
 Este projeto demonstra como orquestrar testes automatizados usando Selenium Grid, Ruby, e WinAppDriver para automação da Calculadora do Windows.
