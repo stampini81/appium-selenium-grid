@@ -1,9 +1,9 @@
 # Appium + Selenium Grid + Ruby + WinAppDriver
 
-![Selenium Grid](https://www.selenium.dev/images/selenium_logo_square_green.png)
-![Appium Logo](https://raw.githubusercontent.com/appium/appium/master/docs/static/img/appium-logo.png)
+![Selenium Grid](img/SELENIUM.jfif)
+![Appium Logo](img/APPIUM.jfif)
 ![Ruby Logo](https://www.ruby-lang.org/images/header-ruby-logo.png)
-![WinAppDriver Logo](https://raw.githubusercontent.com/microsoft/WinAppDriver/master/Images/WinAppDriver_Logo.png)
+![WinAppDriver Logo](img/WINAPP%20DRIVE.jfif)
 
 ## Visão Geral
 Este projeto demonstra como orquestrar testes automatizados usando Selenium Grid, Ruby, e WinAppDriver para automação da Calculadora do Windows.
@@ -36,13 +36,13 @@ appium-selenium-grid/
 
 ## Ferramentas Utilizadas
 
-- **Selenium Grid** ![Selenium Grid](https://www.selenium.dev/images/selenium_logo_square_green.png)
+- **Selenium Grid** ![Selenium Grid](img/SELENIUM.jfif)
   - Orquestra e distribui os testes.
-- **WinAppDriver** ![WinAppDriver](https://raw.githubusercontent.com/microsoft/WinAppDriver/master/Images/WinAppDriver_Logo.png)
+- **WinAppDriver** ![WinAppDriver](img/WINAPP%20DRIVE.jfif)
   - Permite automação de apps Windows.
 - **Ruby** ![Ruby Logo](https://www.ruby-lang.org/images/header-ruby-logo.png)
   - Linguagem dos testes.
-- **Appium Lib** ![Appium Logo](https://raw.githubusercontent.com/appium/appium/master/docs/static/img/appium-logo.png)
+- **Appium Lib** ![Appium Logo](img/APPIUM.jfif)
   - Biblioteca Ruby para automação.
 - **Cucumber** ![Cucumber Logo](https://cucumber.io/images/brand-assets/cucumber-logo-green-256x256.png)
   - BDD para Ruby.
