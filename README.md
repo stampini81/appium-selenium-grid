@@ -44,7 +44,7 @@ appium-selenium-grid/
   - Linguagem dos testes.
 - **Appium Lib** ![Appium Logo](IMG/APPIUM.png)
   - Biblioteca Ruby para automação.
-- **Cucumber** ![Cucumber Logo](IMG//cucumber.png)
+- **Cucumber** ![Cucumber Logo](IMG/CUCUMBER.png)
   - BDD para Ruby.
 - **Docker Compose** ![Docker Logo](https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png)
   - Orquestração dos containers.
