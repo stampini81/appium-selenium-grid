@@ -36,13 +36,13 @@ appium-selenium-grid/
 
 ## Ferramentas Utilizadas
 
-- **Selenium Grid** ![Selenium Grid](img/SELENIUM.jfif)
+- **Selenium Grid** ![Selenium Grid](IMG/SELENIUM.png)
   - Orquestra e distribui os testes.
-- **WinAppDriver** ![WinAppDriver](img/WINAPP%20DRIVE.jfif)
+- **WinAppDriver** ![WinAppDriver](IMG/WINAPP%20DRIVE.png)
   - Permite automação de apps Windows.
 - **Ruby** ![Ruby Logo](https://www.ruby-lang.org/images/header-ruby-logo.png)
   - Linguagem dos testes.
-- **Appium Lib** ![Appium Logo](IMG/APPIUM.jfif)
+- **Appium Lib** ![Appium Logo](IMG/APPIUM.png)
   - Biblioteca Ruby para automação.
 - **Cucumber** ![Cucumber Logo](IMG//cucumber.png)
   - BDD para Ruby.
