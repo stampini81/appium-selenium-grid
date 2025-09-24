@@ -42,9 +42,9 @@ appium-selenium-grid/
   - Permite automação de apps Windows.
 - **Ruby** ![Ruby Logo](https://www.ruby-lang.org/images/header-ruby-logo.png)
   - Linguagem dos testes.
-- **Appium Lib** ![Appium Logo](img/APPIUM.jfif)
+- **Appium Lib** ![Appium Logo](IMG/APPIUM.jfif)
   - Biblioteca Ruby para automação.
-- **Cucumber** ![Cucumber Logo](https://cucumber.io/images/brand-assets/cucumber-logo-green-256x256.png)
+- **Cucumber** ![Cucumber Logo](IMG//cucumber.png)
   - BDD para Ruby.
 - **Docker Compose** ![Docker Logo](https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png)
   - Orquestração dos containers.
